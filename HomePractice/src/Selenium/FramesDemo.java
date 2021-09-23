@@ -18,6 +18,7 @@ public class FramesDemo {
 		{
 			System.setProperty("webdriver.chrome.driver", "E:\\ExampleAutomation\\Automation\\Web-Automation\\Library\\drivers\\chromedriver.exe");
 			oBrowser=new ChromeDriver();
+			Thread.sleep(2000);
 		}catch(Exception e)
 		{
 			e.printStackTrace();
